@@ -1,10 +1,15 @@
 ## Automated Installation
 ```
-git clone https://github.com/ceres80/kitty-config && cd kitty-config && sh automated.sh
+sudo apt install kitty && git clone https://github.com/ceres80/kitty-config && cd kitty-config && sh automated.sh
 ```
 **This installs the theme and additionally creates a backup of your current kitty.conf file and renames it to kitty.conf.old**
 
 ## Manual 
+**INSTALL KITTY IF YOU HAVEN'T YET**
+```
+sudo apt install kitty
+```
+
 1) **Download the [kitty.conf](https://github.com/ceres80/kitty-config/blob/main/kitty.conf) file**
 
 or
