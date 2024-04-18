@@ -28,7 +28,7 @@ mv kitty.conf ~/.config/kitty/
 or
 ```
 cd
-cat kitty.conf > mv ~/.config/kitty/kitty.conf
+cat kitty.conf > ~/.config/kitty/kitty.conf
 rm kitty.conf
 ```
 4) **Download and install the [JetBrains font](https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf)**
