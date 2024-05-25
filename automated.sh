@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install kitty
-sudo apt install kitty
+sudo apt install kitty -y
 
 is_fira_code_installed() {
     fc-list | grep -i "Fira Code" > /dev/null
