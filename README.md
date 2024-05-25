@@ -9,6 +9,15 @@ sudo apt install kitty && git clone https://github.com/ceres80/kitty-config && c
 ```
 > This installs kitty, makes a back up of current kitty config file and sets the current configuration.
 
-
+## Uninstallation
+Uninstall kitty with configurations:
+```
+sudo apt remove --purge kitty
+```
+Get back your old configuration:
+```
+rm -rvf ~/.config/kitty/kitty.conf
+mv ~/.config/kitty/kitty.conf.old ~/.config/kitty/kitty.conf
+```
 
 
