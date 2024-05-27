@@ -14,7 +14,7 @@ Uninstall kitty with configurations:
 ```
 sudo apt remove --purge kitty
 ```
-Get back your old configuration:
+Get your old configurations back:
 ```
 rm -rvf ~/.config/kitty/kitty.conf
 mv ~/.config/kitty/kitty.conf.old ~/.config/kitty/kitty.conf
